@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <title>Task Grid</title>
+  <style>
+    .left-box {
+      background-color: rgb(0, 72, 197);
+      border: 1px solid rgb(0, 72, 197);
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+    .box {
+      background-color: rgb(18, 216, 121);
+      border: 1px solid rgb(18, 216, 121);
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+      height: 68px;
+      border-radius: 10px;
+    }
+
+    .md {
+      height: 9rem;
+    }
+
+    @media only screen and (min-width:992px) {
+      .hide {
+        display: none;
+      }
+    }
+    @media only screen and (min-width:767px) {
+      .hide1 {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <div class="left-box md" ></div>
+      </div>
+      <div class=" col-lg-6  col-md-12  ">
+        <div class="row">
+          <div class="col-6 col-lg-4 col-md-3 col-sm-6">
+            <div class="box"></div>
+          </div>
+          <div class=" col-6 col-lg-4 col-md-3 col-sm-6 ">
+            <div class="box"></div>
+          </div>
+          <div class=" col-6 col-lg-4  col-md-3 col-sm-6">
+            <div class="box"> </div>
+          </div>
+          <div class=" col-6 col-lg-4 col-md-3 col-sm-6 hide">
+            <div class="box"> </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class=" col-6 col-lg-4 col-md-3  col-sm-6 ">
+            <div class="box"></div>
+          </div>
+          <div class=" col-6 col-lg-4 col-md-3  col-sm-6">
+            <div class="box" ></div>
+          </div>
+          <div class="col-6 col-lg-4 col-md-3  col-sm-6">
+            <div class="box"></div>
+          </div>
+          <div class="col-6 col-lg-4 col-md-3  col-sm-6 hide">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-lg-12 col-md-12 col-sm-6 ">
+        <div class="box "></div>
+      </div>
+      <div class="col-6 col-lg-12 col-md-12 hide1 ">
+        <div class="box "></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3  col-sm-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6 col-md-3  col-sm-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6 col-md-3  col-sm-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6 col-md-3  col-sm-6">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
